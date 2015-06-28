@@ -1,0 +1,9 @@
+name: pyanalytics
+
+modules:
+  hackerrank:
+    repository: https://github.com/zonito/hackerrank.git
+
+profiles:
+  update:
+    tasks: ['modules']

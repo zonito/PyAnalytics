@@ -93,7 +93,7 @@ def track_pageview(self):
 
 #### Event tracking
 
-```
+```python
 def _track_event(self, category=None, action=None, value=0):
     """Global method for sending GA."""
     conf = Config()
